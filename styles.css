@@ -1,0 +1,89 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+button {
+    width: 200px;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+    color: #495057;
+    text-align: center;
+}
+
+.carousel-item img {
+    max-height: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #343a40;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #007bff;
+}
+
+/* Animation for the modal title */
+.animated-title {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom styles for better responsiveness */
+.modal-content {
+    padding: 15px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.instruction-text {
+    font-size: 1rem;
+    margin-top: 3px;
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        padding: 10px;
+    }
+
+    .instruction-text {
+        font-size: 0.9rem;
+    }
+}
