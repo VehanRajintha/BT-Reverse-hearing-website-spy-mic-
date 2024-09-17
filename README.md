@@ -1,6 +1,8 @@
 # BT-Reverse-hearing-website-spy-mic-
 
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&pause=1000&color=9122F7&width=435&lines=Spy+mic)](https://git.io/typing-svg)
+
  ![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVehanRajintha%2FBT-Reverse-hearing-website-spy-mic-&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
 
 
