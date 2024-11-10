@@ -87,3 +87,39 @@ button {
         font-size: 0.9rem;
     }
 }
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.github-icon {
+    font-size: 24px;
+}
+
+/* Adjust main container padding to prevent footer overlap */
+.container {
+    padding-bottom: 80px;
+}
